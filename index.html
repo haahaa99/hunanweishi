@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>24 TV CANLI YAYIN</title>
+  
+
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+   
+</head>
+<body>
+  <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
+  data-setup='{}'>
+    <source src="https://36132.hlsplay.aodianyun.com/tv_radio_36132/tv_channel_810.m3u8?auth_key=1687617826-0-0-81fcc090153a8ffe88d67a35c3be43e7&extra_key=mGkSGAOoKUxKvIgQ49H30igDRpxqjKGMqzMnup0pwUOKUDsip2ptpXxPkXlgZSb05Q4W1gmzBzrXTbhXT4rEPNpLTQApL8vJVeEo1a0Wf2xvxCEcT6WXQ9s59agLnZbnxy3qM5KJsl7Ex7apQvIFtZObyxGAT3OZ60vZlSYa1Ro" type="application/x-mpegURL">
+  </video>
+  
+<script>
+var player = videojs('my_video_1');
+player.play();
+</script>
+  
+</body>
+</html>
